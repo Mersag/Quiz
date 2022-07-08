@@ -1,8 +1,14 @@
 h1 {
-  color: darkmagenta;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
+    color: darkmagenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+
+/*Titel mittig platzieren / class angelegt .
+.header__titel {
+  align-items: center;
 }
