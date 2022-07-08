@@ -1,0 +1,8 @@
+.questioncard__button {
+  background-color: pink;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 40%;
+  margin: 0 auto;
+}
