@@ -1,18 +1,19 @@
-const showAnswerButton = document.querySelector(
-  '[data-js="show-answer-button"]'
-);
+//Show answer
+alert("test");
+const button = document.querySelector('[data-js="button"]');
+const answer = document.querySelector('[data-js="answer"]');
 
-const answerContainer = document.querySelector('[data-js="answer-container"]');
+function onButtonClick() {
+  console.log("test");
+}
+button.addEventListener("click", onButtonClick);
 
-let isShown = false;
-showAnswerButton.addEventListener("click", () => {
-  answerContainer.classList.toggle("--hidden");
+// Bookmark Button
 
-  if (isShown) {
-    showAnswerButton.innerText = "Hide Answer";
-    console.log("isShown is now true");
-  } else {
-    showAnswerButton.innerText = "Show Answer";
-    console.log("isShown is now false");
-  }
-});
+const bookmark = document.querySelector('[data-js="bookmark"]');
+let fill = document.querySelector('[data-js="bookmark"]');
+
+function onBookmark() {
+  console.log("test");
+}
+bookmark.addEventListener("click", onBookmark);
