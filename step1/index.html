@@ -1,97 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="/step1/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-  </head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>QUIZ-APP</h1>
+        <h1>QUIZ-APP</h1>
     </header>
-
+    <!--
+          First CARD
+        -->
     <section class="questioncard__container">
-      <article class="questioncard">
-        <h2>Question</h2>
-        <svg
-          class="bookmark-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="40px"
-          viewBox="0 0 24 24"
-          width="40px"
-          fill="#000000"
-        >
+        <article class="questioncard">
+            <h2>Question</h2>
+            <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path
             d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
           />
         </svg>
 
-        <p>
-          One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo
-          ?
-        </p>
+            <p>
+                One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
+            </p>
 
-        <button data-js="first-input">Show answer</button>
+            <button data-js="button">Show answer</button>
 
-        <div class="answer__container --hide">
-          <button class="questioncard__button" type="button">Master</button>
-          <button class="questioncard__button" type="button">King</button>
-          <button class="questioncard__button" type="button">Joker</button>
-          <button class="questioncard__button" type="button">Ass</button>
-          <button class="questioncard__button" type="button">God</button>
-        </div>
-      </article>
+            <div class="answer__container --hide">
+                <button class="questioncard__button" type="button">Master</button>
+                <button class="questioncard__button" type="button">King</button>
+                <button class="questioncard__button" type="button">Joker</button>
+                <button class="questioncard__button" type="button">Ass</button>
+                <button class="questioncard__button" type="button">God</button>
+            </div>
+        </article>
 
-      <article class="questioncard">
-        <h2>Question</h2>
-        <svg
-          data-js="bookmark"
-          class="bookmark-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="40px"
-          viewBox="0 0 24 24"
-          width="40px"
-          fill="#000000"
-        >
+        <!--
+          SECOND CARD
+        -->
+        <article class="questioncard">
+            <h2>Question</h2>
+            <svg data-js="bookmark" class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path
             d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
           />
         </svg>
 
-        <p>
-          Womit überquert Ruffy in der 1. Anime Folge die See ehe er an Bord
-          gezogen wird?
-        </p>
+            <p>
+                Womit überquert Ruffy in der 1. Anime Folge die See ehe er an Bord gezogen wird?
+            </p>
 
-        <button>show Answer</button>
+            <button>show Answer</button>
 
-        <button class="questioncard__button" type="button">
+            <button class="questioncard__button" type="button">
           In einem Fass
         </button>
-        <button class="questioncard__button" type="button">Boot</button>
-        <button class="questioncard__button" type="button">Holzbrett</button>
-        <button class="questioncard__button" type="button">Surfbrett</button>
-      </article>
+            <button class="questioncard__button" type="button">Boot</button>
+            <button class="questioncard__button" type="button">Holzbrett</button>
+            <button class="questioncard__button" type="button">Surfbrett</button>
+        </article>
 
-      <article class="questioncard">
+        <!--
+          Third CARD
+        -->
+
+        <article class="questioncard">
+            <h2>Question</h2>
+            <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+          />
+        </svg>
+
+            <p>
+                One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
+            </p>
+
+            <button>show Answer</button>
+
+            <button class="questioncard__button" type="button">Master</button>
+            <button class="questioncard__button" type="button">King</button>
+            <button class="questioncard__button" type="button">Joker</button>
+            <button class="questioncard__button" type="button">Ass</button>
+            <button class="questioncard__button" type="button">God</button>
+        </article>
+    </section>
+    <!--
+          Fourth CARD
+        -->
+
+    <article class="questioncard">
         <h2>Question</h2>
-        <svg
-          class="bookmark-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="40px"
-          viewBox="0 0 24 24"
-          width="40px"
-          fill="#000000"
-        >
+        <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path
             d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
@@ -99,8 +108,7 @@
         </svg>
 
         <p>
-          One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo
-          ?
+            One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
         </p>
 
         <button>show Answer</button>
@@ -110,15 +118,123 @@
         <button class="questioncard__button" type="button">Joker</button>
         <button class="questioncard__button" type="button">Ass</button>
         <button class="questioncard__button" type="button">God</button>
-      </article>
+    </article>
+    </section>
+
+    <!--
+          Fifth CARD
+        -->
+
+    <article class="questioncard">
+        <h2>Question</h2>
+        <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
+    <path d="M0 0h24v24H0V0z" fill="none" />
+    <path
+      d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+    />
+  </svg>
+
+        <p>
+            One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
+        </p>
+
+        <button>show Answer</button>
+
+        <button class="questioncard__button" type="button">Master</button>
+        <button class="questioncard__button" type="button">King</button>
+        <button class="questioncard__button" type="button">Joker</button>
+        <button class="questioncard__button" type="button">Ass</button>
+        <button class="questioncard__button" type="button">God</button>
+    </article>
+    </section>
+
+    <!--
+          Sixth CARD
+        -->
+
+    <article class="questioncard">
+        <h2>Question</h2>
+        <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
+<path d="M0 0h24v24H0V0z" fill="none" />
+<path
+  d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+/>
+</svg>
+
+        <p>
+            One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
+        </p>
+
+        <button>show Answer</button>
+
+        <button class="questioncard__button" type="button">Master</button>
+        <button class="questioncard__button" type="button">King</button>
+        <button class="questioncard__button" type="button">Joker</button>
+        <button class="questioncard__button" type="button">Ass</button>
+        <button class="questioncard__button" type="button">God</button>
+    </article>
+    </section>
+    <!--
+          Seventh CARD
+        -->
+
+    <article class="questioncard">
+        <h2>Question</h2>
+        <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
+<path d="M0 0h24v24H0V0z" fill="none" />
+<path
+  d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+/>
+</svg>
+
+        <p>
+            One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
+        </p>
+
+        <button>show Answer</button>
+
+        <button class="questioncard__button" type="button">Master</button>
+        <button class="questioncard__button" type="button">King</button>
+        <button class="questioncard__button" type="button">Joker</button>
+        <button class="questioncard__button" type="button">Ass</button>
+        <button class="questioncard__button" type="button">God</button>
+    </article>
+    </section>
+
+    <!--
+          Eight CARD
+        -->
+
+    <article class="questioncard">
+        <h2>Question</h2>
+        <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000">
+<path d="M0 0h24v24H0V0z" fill="none" />
+<path
+  d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+/>
+</svg>
+
+        <p>
+            One Piece: Wie lautet der Unterweltname von Don Quichotte de Flamingo ?
+        </p>
+
+        <button>show Answer</button>
+
+        <button class="questioncard__button" type="button">Master</button>
+        <button class="questioncard__button" type="button">King</button>
+        <button class="questioncard__button" type="button">Joker</button>
+        <button class="questioncard__button" type="button">Ass</button>
+        <button class="questioncard__button" type="button">God</button>
+    </article>
     </section>
 
     <nav class="navbar">
-      <a href="/index.html">Home</a>
-      <a href="" alt="">Bookmark</a>
-      <a href="" alt="">Create</a>
-      <a href="" alt="">Profil</a>
+        <a href="/index.html">Home</a>
+        <a href="" alt="">Bookmark</a>
+        <a href="" alt="">Create</a>
+        <a href="" alt="">Profil</a>
     </nav>
     <script src="./index.js" type="module" defer></script>
-  </body>
+</body>
+
 </html>
