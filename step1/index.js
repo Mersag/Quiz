@@ -1,3 +1,7 @@
+import { Bookmark } from "../components/bookmark/bookmark.js";
+
+Bookmark();
+
 //Show answer
 
 const button = document.querySelector('[data-js="button"]');
@@ -7,16 +11,6 @@ function onButtonClick() {
     console.log("test");
 }
 button.addEventListener("click", onButtonClick);
-
-// Bookmark Button
-
-const bookmark = document.querySelector('[data-js="bookmark"]');
-let fill = document.querySelector('[data-js="bookmark"]');
-
-function onBookmark() {
-    console.log("test");
-}
-bookmark.addEventListener("click", onBookmark);
 
 //const showAnswerButton = document.querySelector(
 // '[data-js="show-answer-button"]');

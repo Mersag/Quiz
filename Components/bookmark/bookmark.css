@@ -1,7 +1,15 @@
 .bookmark-icon {
-  position: absolute;
-  top: -15px;
-  right: 20px;
-  border-radius: 50%;
-  background: pink;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    border-radius: 50%;
+    background: pink;
+}
+
+.hide-fill {
+    display: none;
+}
+
+.show-fill {
+    display: block;
 }
