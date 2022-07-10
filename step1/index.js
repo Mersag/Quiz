@@ -1,6 +1,7 @@
 import { Bookmark } from "../components/bookmark/bookmark.js";
-
+import { Button } from "../components/button/button.js";
 Bookmark();
+Button();
 
 //Show answer
 
