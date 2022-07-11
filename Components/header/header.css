@@ -1,8 +1,8 @@
 h1 {
-    color: darkmagenta;
+    color: white;
     z-index: 20;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: darkmagenta;
     padding: 10px;
     position: fixed;
     width: 100%;
