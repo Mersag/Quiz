@@ -2,6 +2,12 @@ import { Bookmark } from "./components/bookmark/bookmark.js";
 import { Button } from "./components/button/button.js";
 Bookmark();
 Button();
+const url = "https://opentdb.com/api.php?amount=10";
+
+fetch(url)
+    .than((jsonObject) => jsonObject.json())
+    .than((javascripObject) => displayCards(javascripObject.results))
+    .catch((error) => console.error(error.message));
 
 //Show answer
 
