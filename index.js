@@ -1,13 +1,13 @@
-import { Bookmark } from "./components/bookmark/bookmark.js";
-import { Button } from "./components/button/button.js";
+import { Bookmark } from './components/bookmark/bookmark.js';
+import { Button } from './components/button/button.js';
 Bookmark();
 Button();
-const url = "https://opentdb.com/api.php?amount=10";
+const url = 'https://opentdb.com/api.php?amount=10';
 
 fetch(url)
-    .than((jsonObject) => jsonObject.json())
-    .than((javascripObject) => displayCards(javascripObject.results))
-    .catch((error) => console.error(error.message));
+  .than(jsonObject => jsonObject.json())
+  .than(javascripObject => displayCards(javascripObject.results))
+  .catch(error => console.error(error.message));
 
 //Show answer
 
@@ -15,9 +15,9 @@ const button = document.querySelector('[data-js="button"]');
 const answer = document.querySelector('[data-js="answer"]');
 
 function onButtonClick() {
-    console.log("test");
+  console.log('test');
 }
-button.addEventListener("click", onButtonClick);
+button.addEventListener('click', onButtonClick);
 
 //const showAnswerButton = document.querySelector(
 // '[data-js="show-answer-button"]');
