@@ -1,10 +1,10 @@
 h1 {
-    color: white;
-    z-index: 20;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: darkmagenta;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+  color: white;
+  z-index: 20;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkmagenta;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
 }
